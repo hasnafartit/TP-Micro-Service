@@ -27,5 +27,20 @@ Et pour voir ce qui est dans la base de données on a utilisé h2 console qui es
 Après le test on a crée la classe CompteRestontroller :
   on a utilisé l'annotation '@RestController' pour creer un rest controller
   on a utilisé l'injection par le constructeur
-  on a definit une methode qui permet de retourner tous les cpmptes 
+  on a definit une methode qui permet de retourner tous les comptes 
+  et on a utiliser l'annotation '@GetMapping' qui contient une expression d’URL qui permet d'afficher tous les comptes
   
+  ![image](https://user-images.githubusercontent.com/84719124/163491874-1c618cbb-0f56-4627-af89-ad7de33ce33b.png)
+
+![image](https://user-images.githubusercontent.com/84719124/163491892-5900d601-f4fe-4c9e-a4d2-fb1043c9101c.png)
+
+
+  puis on a ajouté une methode qui permer d'afficher un compte par son id
+  
+  ![image](https://user-images.githubusercontent.com/84719124/163491987-042fbc18-b816-436d-a679-d7fec9278794.png)
+
+
+![image](https://user-images.githubusercontent.com/84719124/163492000-e2079c66-94c0-40d6-9f71-7b15b5bb2c10.png)
+
+
+
