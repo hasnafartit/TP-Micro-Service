@@ -24,4 +24,8 @@ Et pour voir ce qui est dans la base de données on a utilisé h2 console qui es
 ![image](https://user-images.githubusercontent.com/84719124/163490781-c02af4c8-bae7-41b0-81a9-a87aef4a129f.png)
 
 
-
+Après le test on a crée la classe CompteRestontroller :
+  on a utilisé l'annotation '@RestController' pour creer un rest controller
+  on a utilisé l'injection par le constructeur
+  on a definit une methode qui permet de retourner tous les cpmptes 
+  
