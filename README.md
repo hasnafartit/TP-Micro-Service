@@ -43,4 +43,10 @@ Après le test on a crée la classe CompteRestontroller :
 ![image](https://user-images.githubusercontent.com/84719124/163492000-e2079c66-94c0-40d6-9f71-7b15b5bb2c10.png)
 
 
+Puis on a ajouté une methode qui permet d'ajouter un compte, (postMapping)
+
+on a ajouté une methode qui permet de modifier un compte (PuMapping)
+
+n a ajouté une methode qui permet de supprimer un compte (DeleteMapping)
+
 
