@@ -18,8 +18,10 @@ voici l'exucution du 1er test de notre micro-service :
 
 Et pour voir ce qui est dans la base de données on a utilisé h2 console qui est une petit application web dans notre application qui permet d'acceder à la base de données
 
+![image](https://user-images.githubusercontent.com/84719124/163490751-c6aceea7-02cf-400f-bdaf-19fea530c351.png)
+
+
+![image](https://user-images.githubusercontent.com/84719124/163490781-c02af4c8-bae7-41b0-81a9-a87aef4a129f.png)
 
 
 
-
- c 
