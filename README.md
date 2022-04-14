@@ -12,3 +12,14 @@ Ensuite on a creer l'interface CompteRepository qui été hirité de la classe J
 
 Puis on a tester notre application par definir des comptes dans le main et on a les stocké dans la base de données comptedb on utilisant H2
 
+voici l'exucution du 1er test de notre micro-service :
+
+![image](https://user-images.githubusercontent.com/84719124/163490290-a220f2c1-a8c0-4495-824c-4d12fcb5f204.png)
+
+Et pour voir ce qui est dans la base de données on a utilisé h2 console qui est une petit application web dans notre application qui permet d'acceder à la base de données
+
+
+
+
+
+ c 
