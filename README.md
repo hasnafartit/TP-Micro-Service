@@ -165,6 +165,7 @@ tester la projection p1 :
 ![image](https://user-images.githubusercontent.com/84719124/163566305-58241718-274b-4efa-b582-2303decafeff.png)
 
 puis on a crer une projection 2 qui permet d'afficher le solde et le type:
+
 ![image](https://user-images.githubusercontent.com/84719124/163566459-29465f6f-44f9-4822-b498-3ab07aea3b06.png)
 
 tester la projection 2:
