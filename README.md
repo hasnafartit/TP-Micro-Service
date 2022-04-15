@@ -113,7 +113,41 @@ Modifier :
 
 Supprimer :
 
-![image](https://user-images.githubusercontent.com/84719124/163513267-5e444150-0648-4125-b1dd-1694ef805c9a.png)
+![image](https://user-images.githubusercontent.com/84719124/163513353-385f9784-108c-4d39-991a-14e3fcef86cf.png)
+
+
+Il y a une atre methode pour tester le micro-service et cela par l'utilisation de swagger :
+
+tester get (afficher):
+
+![image](https://user-images.githubusercontent.com/84719124/163514534-cde9b356-01b0-4a68-8975-f744f821a15b.png)
+
+
+Inserer :
+![image](https://user-images.githubusercontent.com/84719124/163514567-c973a95b-1c3a-4a5f-801b-e61acae16b29.png)
+
+![image](https://user-images.githubusercontent.com/84719124/163514586-15bead90-2620-42e7-824b-f2f0b2a8af0e.png)
+
+
+afficher un compte par son id :
+
+![image](https://user-images.githubusercontent.com/84719124/163514626-8331cd91-491f-4642-a874-e924945aed44.png)
+
+
+Supprimer :
+
+![image](https://user-images.githubusercontent.com/84719124/163514681-f283ff1e-c5ea-4fb1-94a2-6e7189dc191e.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
   
