@@ -86,7 +86,36 @@ supprimer :
 
 
 
+puis on a vu la DOCUMENTATION API qui donne des informations sur le micro service
+
+![image](https://user-images.githubusercontent.com/84719124/163512624-671b71ed-0bd4-4ae9-8167-40b26f50871f.png)
 
 
+puis on a importer la documentation API dans postman :
+  ceci facilte le travail puisque on peut afficher,modifier... en cliquant sur get,put ...
+  voici des exemples:
+  AFFICHER tous les comptes : 
+  ![image](https://user-images.githubusercontent.com/84719124/163513105-ed60f21d-8b0a-4a43-997c-4c2175b75fc9.png)
+  Afficher un seul compte par leur id :
+  
+  ![image](https://user-images.githubusercontent.com/84719124/163513208-21117023-c12e-437b-abc9-9f83bc33d7ba.png)
+
+  
+  Inserer:
+  
+  ![image](https://user-images.githubusercontent.com/84719124/163513122-da7702f7-190a-43e6-a37c-f51e8a830023.png)
+
+
+
+Modifier :
+
+![image](https://user-images.githubusercontent.com/84719124/163513240-2f9b5d27-c3ad-422b-ad95-a89ea2f0e55c.png)
+
+Supprimer :
+
+![image](https://user-images.githubusercontent.com/84719124/163513267-5e444150-0648-4125-b1dd-1694ef805c9a.png)
+
+
+  
 
 
