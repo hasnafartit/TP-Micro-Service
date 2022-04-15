@@ -60,4 +60,33 @@ n a ajouté une methode qui permet de supprimer un compte (DeleteMapping)
 ![image](https://user-images.githubusercontent.com/84719124/163511650-663e51db-4f1b-48de-aa15-82df11c31c60.png)
 
 
+Puis on a utilisé postman pour tester le micro service:
+
+afficher :
+
+![image](https://user-images.githubusercontent.com/84719124/163512213-f957f7cf-99a3-4506-b268-5e2adecce227.png)
+
+ajouter:
+
+![image](https://user-images.githubusercontent.com/84719124/163512266-1a08ea7b-692f-4ebc-ac7f-99a0fd2066ec.png)
+
+modifier:
+
+![image](https://user-images.githubusercontent.com/84719124/163512309-af9ab524-f77c-4d5d-a9bc-81d7db1ea9c1.png)
+
+![image](https://user-images.githubusercontent.com/84719124/163512401-4cae4f57-11c3-4454-a686-1e262060ba97.png)
+
+
+supprimer :
+
+![image](https://user-images.githubusercontent.com/84719124/163512431-fd5c9f19-68a2-43dd-a805-65186cda37cb.png)
+
+
+![image](https://user-images.githubusercontent.com/84719124/163512450-2dee489a-aa9d-4b2a-abc0-8b9078c9da01.png)
+
+
+
+
+
+
 
