@@ -4,7 +4,7 @@
 Dans cette partie on a creé un simple micro-service(une application qui permet de gérer les comptes bancaire) avec spring boot.
 
 Tout d'abord on a creer la classe compte où on a définit les attribut du compte bancaire et on a utilisé l'annotation '@Data' qui permet d'ajouter les getters et les setters , on a utilisé l'annotation '@NoArgsConstructor' qui permet de définir un constructeur sans parametre et aussi  on a utilisé l'annotation '@AllArgsConstructor' qui permet de définir un constructeur avec tous les parametres. Puis on a ajouté l'annotation '@Entity' pour que notre application soit une entités JPA
-et ona ajouter les annotations 'Id' avant le code pour qu'il soit la clé primaire dans la table compte et @GenerateValue(strategy=....) pour avoir une ato incrementation.et pour l'annotation '@Enumerated(EnumType.String)' pour que le type de compte soit soit stocké au format string dans la base des données.
+et ona ajouter les annotations '@Id' avant le code pour qu'il soit la clé primaire dans la table compte et @GenerateValue(strategy=....) pour avoir une ato incrementation.et pour l'annotation '@Enumerated(EnumType.String)' pour que le type de compte soit soit stocké au format string dans la base des données.
 
 
 
@@ -139,11 +139,20 @@ Supprimer :
 ![image](https://user-images.githubusercontent.com/84719124/163514681-f283ff1e-c5ea-4fb1-94a2-6e7189dc191e.png)
 
 
+SPRING DATA REST
+Apres on a supprimer l'annotation '@RestController' qui est donc la classe CompteRestController et on a ajouter l'annotation '@Respositoryestesource'(qui appartient spring data rest) dans la classe CompteRespository qui donne un web service et qui demare un Rest conntroller qui permet d'acceder à tous les methode qui ont dans cette interface 
+
+Le test de ce qu'on a fait:
+
+![image](https://user-images.githubusercontent.com/84719124/163565487-4494fa5f-69e0-4d94-978f-a431bc2fe66f.png)
 
 
+visité la page 0(c à d la 1ere page) et afficher 2 comptes :
+![image](https://user-images.githubusercontent.com/84719124/163565773-0c3c0cc4-539c-43fc-88ad-77f9db6635ed.png)
 
+visité la page 1(c à d la 2eme page) et afficher 2 comptes :
 
-
+![image](https://user-images.githubusercontent.com/84719124/163565942-b8596c45-873c-46cf-802e-009c1fe07434.png)
 
 
 
