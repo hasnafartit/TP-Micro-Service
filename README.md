@@ -155,6 +155,24 @@ visité la page 1(c à d la 2eme page) et afficher 2 comptes :
 ![image](https://user-images.githubusercontent.com/84719124/163565942-b8596c45-873c-46cf-802e-009c1fe07434.png)
 
 
+Apres ona crer une interface pour faire la projection (qu'il offre spring data rest) on a utilisé l'annotation '@Projection'
+
+![image](https://user-images.githubusercontent.com/84719124/163566216-f9548732-2491-46f3-9cf0-05a242cb22f0.png)
+ici ona crée une projection qui s'appelle p1 qui permet d'afficher le code et le solde
+
+tester la projection p1 :
+
+![image](https://user-images.githubusercontent.com/84719124/163566305-58241718-274b-4efa-b582-2303decafeff.png)
+
+puis on a crer une projection 2 qui permet d'afficher le solde et le type:
+![image](https://user-images.githubusercontent.com/84719124/163566459-29465f6f-44f9-4822-b498-3ab07aea3b06.png)
+
+tester la projection 2:
+
+![image](https://user-images.githubusercontent.com/84719124/163566584-ae85c0ea-2f07-4aae-b86a-36f9cfabb281.png)
+
+
+
 
 
 
