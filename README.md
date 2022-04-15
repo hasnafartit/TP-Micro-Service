@@ -172,6 +172,54 @@ tester la projection 2:
 ![image](https://user-images.githubusercontent.com/84719124/163566584-ae85c0ea-2f07-4aae-b86a-36f9cfabb281.png)
 
 
+puis on a ajouter dans la classe principal un rest configuration pour exposer le id :
+
+![image](https://user-images.githubusercontent.com/84719124/163567060-aa7c96b9-e5f7-4c47-80b2-76717b6ba621.png)
+
+test:
+
+afichage avant la configuration :
+![image](https://user-images.githubusercontent.com/84719124/163567159-ec3d1a6d-eccb-48a9-a2ba-b39ab7ce1b7f.png)
+
+afichage apres l'ajout de la configuration :
+
+![image](https://user-images.githubusercontent.com/84719124/163567215-10e347bc-64e8-4990-adfc-01690df7687f.png)
+
+
+Puis on a ajouter une methode findByType pour qu'on puisse acceder a un compte par le type
+
+![image](https://user-images.githubusercontent.com/84719124/163567415-afc4749c-485d-4088-9cbe-82a7d3380bce.png)
+
+test:
+
+type courant :
+![image](https://user-images.githubusercontent.com/84719124/163567433-99cd4a30-de4e-43cc-96d8-2043f45799cd.png)
+
+
+type epargne :
+![image](https://user-images.githubusercontent.com/84719124/163567486-c57abb2a-4074-494a-abc8-884070a798fe.png)
+
+
+Ensuite on a creer l'interface Compte service pour definir une methode virement on a utilise l'annotation '@Service' pour qu'il soit une composante de la couche servivce 
+puis on a ajouter l'annotation '@Transactional' pour que les methodes seront transactionnel
+
+Apres on a Creer un autre rest controller pour tester la methode virement et on a creé unz classe DTO pour definir les parametre dont on a besoin pour faire un virement : 
+
+voici le rest controller :
+![image](https://user-images.githubusercontent.com/84719124/163568310-b9bdf065-0a70-426c-bd02-0253cce1d354.png)
+
+voici le test :
+
+  les comptes avant le virement :
+  ![image](https://user-images.githubusercontent.com/84719124/163568350-1f31fc4d-05bd-454a-87ee-11c7a1847281.png)
+  
+  le virement :
+  
+  ![image](https://user-images.githubusercontent.com/84719124/163568396-5568861c-9fe2-4df6-9abe-18ee8bf337a5.png)
+
+  les comptesapres le virement :
+
+![image](https://user-images.githubusercontent.com/84719124/163568464-20ac5169-dc99-4dec-9af6-6fe24fb2038b.png)
 
 
 
