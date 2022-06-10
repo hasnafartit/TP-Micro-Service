@@ -222,10 +222,16 @@ voici le test :
 
 ![image](https://user-images.githubusercontent.com/84719124/163568464-20ac5169-dc99-4dec-9af6-6fe24fb2038b.png)
 
+Et enfin on a créer un service avec le broker kafka (Kafka offre un cluster de brokers qui permet d'echanger les messages entre les applications)
 
+Pour demarer kafka il faut tout d'abord demarer zookeeper qui fait la coordination entre les instance de kafka et puis demarer le serveur kafka
+
+![image](https://user-images.githubusercontent.com/84719124/173118201-527595e3-670a-4404-83a4-840be6a4f28b.png)
+
+on a creé un producer en utilisant la fonction Supplier qui permet de publier dans un topic FACTURATON
 
 
 
   
-
+Puis on a creer un consumer (avec Consumer) qui lire les factures envoyés par le topic FACTURATON et les enregistrer dans la base des données
 
